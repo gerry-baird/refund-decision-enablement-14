@@ -14,7 +14,7 @@ myModel.GoodsCondition.WornOrDamaged#instance.label = worn or damaged
 
 # myModel.Order
 myModel.Order#concept.label = Order
-myModel.Order.Order(java.util.List,double,double,double)#phrase.navigation = a new {Order} where {0, goods category} {1, sales tax} {2, shipping cost} {3, subtotal} 
+myModel.Order.Order(java.util.List,double,double,double)#phrase.navigation = a new {Order} where {0, goods category} {1, sales tax} {2, shipping cost} {3, subtotal}
 myModel.Order.addTo_goodsCategories(myModel.GoodsCategory)#phrase.action = add {0} to the goods categories of {this}
 myModel.Order.clear_goodsCategories()#phrase.action = clear the goods categories of {this}
 myModel.Order.goodsCategories#phrase.action = set the goods categories of {this} to {goods category}
@@ -41,7 +41,7 @@ myModel.RefundDecision.Manual#instance.label = manual
 
 # myModel.RefundRequest
 myModel.RefundRequest#concept.label = Refund Request
-myModel.RefundRequest.RefundRequest(double,myModel.GoodsCondition,myModel.RefundRequestReason)#phrase.navigation = a new {Refund Request} where {0, days since order delivered} {1, goods condition} {2, reason} 
+myModel.RefundRequest.RefundRequest(double,myModel.GoodsCondition,myModel.RefundRequestReason)#phrase.navigation = a new {Refund Request} where {0, days since order delivered} {1, goods condition} {2, reason}
 myModel.RefundRequest.daysSinceOrderDelivered#phrase.action = set the days since order delivered of {this} to {days since order delivered}
 myModel.RefundRequest.daysSinceOrderDelivered#phrase.addition_setter = add {days since order delivered} to the days since order delivered of {this}
 myModel.RefundRequest.daysSinceOrderDelivered#phrase.navigation = {days since order delivered} of {this}

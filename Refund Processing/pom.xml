@@ -10,13 +10,13 @@
     <packaging>pom</packaging>
 
     <properties>
-        <ads-mojo.version>14.1.10</ads-mojo.version>
+        <ads-mojo.version>14.2.0.2</ads-mojo.version>
         <buildTime>${maven.build.timestamp}</buildTime>
-        <decision-ml-predictor.version>1.0.4</decision-ml-predictor.version>
+        <decision-ml-predictor.version>1.0.4.1</decision-ml-predictor.version>
         <decisionServiceId>${project.groupId}:${project.artifactId}</decisionServiceId>
-        <engine-api.version>3.3.0</engine-api.version>
-        <engine-compact-runtime.version>3.3.2</engine-compact-runtime.version>
-        <jackson.version>2.17.2</jackson.version>
+        <engine-api.version>3.4.0.01</engine-api.version>
+        <engine-compact-runtime.version>3.4.0.01</engine-compact-runtime.version>
+        <jackson.version>2.18.0</jackson.version>
         <junit.jupiter.version>5.8.0</junit.jupiter.version>
         <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
         <maven-dependency-plugin.version>3.6.1</maven-dependency-plugin.version>
